@@ -1,0 +1,12 @@
+{
+    "red_laydown":[
+        {
+            "name": "dhow-a",
+            "location" : "G32"
+        },
+        {
+            "name": "battery-a",
+            "location" : "H12"
+        }
+    ]
+}

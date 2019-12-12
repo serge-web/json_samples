@@ -1,0 +1,72 @@
+{
+    "forces":[
+        {
+            "name": "green",
+            "color" : "#0f0",
+            "platforms":[
+                {
+                    "name" : "green-dhow-a",
+                    "type" : "dhow",
+                    "start_loc": "P17",
+                    "condition": "working",
+                    "visibility":[
+                        {"red" : false},
+                        {"blue" : false}
+                    ],
+                    "perception":[
+                        {"red" : null},
+                        {"blue" : "green"}
+                    ],
+                    "pending_laydown": false,
+                    "planned_route":[
+                        {
+                            "12:30": {
+                                "10 kts": ["P18", "P19"],
+                                "5 kts": ["P17", "P16"]
+                            },
+                            "13:00": {
+                                "10 kts": ["P15", "P14", "P13", "P12"]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "red",
+            "color" : "#f00",
+            "platforms":[
+                {
+                    "name" : "red-dhow-a",
+                    "type" : "red-dhow",
+                    "condition": "Pending_Laydown",
+                    "start_loc": "J17",
+                    "visibility":[
+                        {"red" : true},
+                        {"blue" : false}
+                    ],
+                    "perception":[
+                        {"red" : "red"},
+                        {"blue" : "green"}
+                    ],
+                    "pending_laydown": true
+                },
+                {
+                    "name" : "battery-a",
+                    "type" : "missile",
+                    "state": "Pending_Laydown",
+                    "start_loc": "J18",
+                    "visibility":[
+                        {"red" : true},
+                        {"blue" : false}
+                    ],
+                    "perception":[
+                        {"red" : "red"},
+                        {"blue" : null}
+                    ],
+                    "pending_laydown": true
+                }
+            ]
+        }
+    ]
+}

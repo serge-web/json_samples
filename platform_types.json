@@ -1,0 +1,45 @@
+{
+    "platform_types" : [
+        {
+            "name": "dhow",
+            "icon": "dhow",
+            "actions": ["Transit", "Fish"],
+            "states": ["Working", "Disabled", "Destroyed"],
+            "deploys_from": "coastline",
+            "mode": "afloat"
+        },
+        {
+            "name": "red-dhow",
+            "icon": "dhow",
+            "actions": ["Transit", "Fish", "Observe", "Attack (Small Arms)", "Attack (IED)", "Lay Mine"],
+            "states": ["Pending_Laydown", "Working", "Disabled", "Destroyed"],
+            "deploys_from": "coastline",
+            "mode": "afloat"
+        },
+        {
+            "name": "frigate",
+            "icon": "frigate",
+            "actions": ["Transit", "Search", "Defend", "Attack", "Prepare for FLYOPS"],
+            "states": ["Working", "Disabled", "Destroyed"],
+            "deploys_from": "sea",
+            "mode": "afloat"
+        },
+        {
+            "name": "mpa",
+            "icon": "mpa",
+            "actions": ["Prepare for T/O", "Search", "Identify", "Observe"],
+            "states": ["Landed", "Preparing", "Airborne"],
+            "deploys_from": "land",
+            "mode": "airborne"
+        },
+        {
+            "name": "missile",
+            "icon": "missile",
+            "actions": ["Attack"],
+            "states": ["Pending_Laydown", "Unused", "Used"],
+            "deploys_from": "land",
+            "mode": "land"
+        }
+
+    ]
+}

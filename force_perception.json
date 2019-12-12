@@ -1,0 +1,15 @@
+{
+    "perception":{
+        "force": "blue",
+        "perceptions": [
+            {
+                "name":"red-dhow-a",
+                "force" :"green"
+            },
+            {
+                "name":"green-dhow-a",
+                "force" :"red"
+            }
+        ]
+    }
+}
