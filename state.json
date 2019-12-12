@@ -2,7 +2,7 @@
     "state":[
         {
             "force": "red",
-            "states": [
+            "platforms": [
             {
                 "name": "red-dhow-a",
                 "condition": "working",
