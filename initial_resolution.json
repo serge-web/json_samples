@@ -1,0 +1,36 @@
+{
+    "forces":
+    [
+        {
+            "name": "red",
+            "platforms": [
+                {
+                    "name": "red-dhow-a",
+                    "visibility":[
+                        {"red" : true},
+                        {"blue" : false}
+                    ]
+                },
+                {
+                    "name": "red-missile-a",
+                    "visibility":[
+                        {"red" : true},
+                        {"blue" : false}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "blue",
+            "platforms": [
+                {
+                    "name": "richmond",
+                    "visibility":[
+                        {"red" : false},
+                        {"blue" : true}
+                    ]
+                }
+            ]
+        }
+    ]
+}
